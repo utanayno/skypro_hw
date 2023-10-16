@@ -1,56 +1,46 @@
 # Создайте по одной функции на каждое действие (всего 10 функций):
 
-def one(x):
-    print(x)
-one(1)
+def one():
+    print(1, end = "")
 
-def two(x):
-    print(x)
-two(2)
+def two():
+    print(2, end = "")
 
-def three(x):
-    print(x)
-three(3)
+def three():
+    print(3, end = "")
 
-def four(x):
-    print(x)
-four(4)
+def four():
+    print(4, end = "")
 
-def five(x):
-    print(x)
-five(5)
+def five():
+    print(5, end = "")
 
-def six(x):
-    print(x)
-six(6)
+def six():
+    print(6, end = "")
 
-def seven(x):
-    print(x)
-seven(7)
+def seven():
+    print(7, end = "")
 
-def eight(x):
-    print(x)
-eight(8)
+def eight():
+    print(8, end = "")
 
-def nine(x):
-    print(x)
-nine(9)
+def nine():
+    print(9, end = "")
 
-def zero(x):
-    print(x)
-zero(0)
+def zero():
+    print(0, end = "")
 
 # Вызовите объявленные функции в таком порядке, чтобы на экране отобразился номер 88005553535
 
-eight(8)
-eight(8)
-zero(0)
-zero(0)
-five(5)
-five(5)
-five(5)
-three(3)
-five(5)
-three(3)
-five(5)
+eight()
+eight()
+zero()
+zero()
+five()
+five()
+five()
+three()
+five()
+three()
+five()
 
